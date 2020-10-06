@@ -1,0 +1,147 @@
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+}
+
+#image-background{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+header h1{
+    font-size: 100px;
+    color: white;
+    padding: 35px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 50px;
+    color: #00B172;
+    padding: 25px;
+}
+
+header p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+
+.small-icons{
+    height: 200px;
+}
+#logo{
+    height: 58px;
+    align-self: flex-start;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+li>a:link{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+li>a:visited{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+#bottom-section{
+    background-color: #00B172;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#screenshot{
+    height: 75vh;
+    padding-top: 50px;
+}
+
+#last-div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#last-div h2{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+#last-div h4{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#last-div p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+    width: 20vw;
+}
