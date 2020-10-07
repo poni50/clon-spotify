@@ -1,10 +1,10 @@
-header{
+header {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,14 +12,14 @@ nav{
     padding: 15px;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.column-centered{
+.column-centered {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,14 @@ main{
     width: 100%;
 }
 
-.row{
+.column-centered h2 {
+    margin-top: 50px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #00B172;
+}
+
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -36,110 +43,112 @@ main{
     margin-top: 50px;
 }
 
-.row p{
+.row p {
     font-size: 30px;
     letter-spacing: 1px;
     color: black;
     text-align: center;
 }
 
-#image-background{
+#image-background {
     background-image: url(../images/landing.jpg);
     background-size: cover;
     background-position: center center;
     height: 80vh;
 }
 
-header h1{
+header h1 {
     font-size: 100px;
     color: white;
     padding: 35px;
 }
 
-h2{
-    margin-top: 50px;
-    font-size: 50px;
-    text-decoration: underline;
-}
-
-h3{
+h3 {
     font-size: 50px;
     color: #00B172;
     padding: 25px;
 }
 
-header p{
+header p {
     font-size: 30px;
     letter-spacing: 1px;
     color: white;
     text-align: center;
 }
 
-.small-icons{
+.small-icons {
     height: 200px;
 }
-#logo{
+
+#logo {
     height: 58px;
     align-self: flex-start;
 }
 
-li{
+li {
     display: inline-block;
     margin: 10px;
 }
 
-li>a:link{
+li>a:link {
     font-size: 24px;
     text-decoration: none;
     color: black;
 }
 
-li>a:visited{
+li>a:visited {
     font-size: 24px;
     text-decoration: none;
     color: black;
 }
 
-#bottom-section{
+#bottom-section {
     background-color: #00B172;
     margin-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 50px;
     box-sizing: border-box;
 }
 
-#screenshot{
-    height: 75vh;
+#screenshot {
+    height: 80vh;
     padding-top: 50px;
 }
 
-#last-div{
+#last-div {
     height: 100%;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: visible;
 }
 
-#last-div h2{
+#last-div h2 {
     color: white;
     font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: inline-block;
+    white-space: nowrap;
     text-decoration: underline;
-
+    text-underline-offset: 35%;
 }
 
-#last-div h4{
+#last-div h4 {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-weight: bold;
 }
 
-#last-div p{
-    font-size: 30px;
+#last-div p {
+    font-size: 25px;
     letter-spacing: 1px;
     color: white;
     text-align: left;
